@@ -1,0 +1,18 @@
+body {
+    background-color: #9cb1c6;
+}
+
+.card {
+    border-radius: 12px;
+}
+
+/* Completed task text styling */
+.completed-task {
+    text-decoration: line-through;
+    color: #13ba61;
+}
+
+/* Custom transitions for smooth filtering and deletion */
+.list-group-item {
+    transition: all 0.2s ease-in-out;
+}
